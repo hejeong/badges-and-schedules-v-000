@@ -12,7 +12,7 @@ end
 def assign_rooms(names)
   count = 0
   names.collect do |name|
-    count += 1
+    count +=
     "Hello, #{name}! You'll be assigned to room #{count+1}!"
   end
 end
